@@ -13,10 +13,10 @@ logging.basicConfig(filename='API.log', filemode='a', format='%(asctime)s - %(le
 def establish_database_connection():
 
     try:
-        conn = psycopg2.connect(database="yogurt",
-                                host="db.eai.eu",
-                                user="yogurt",
-                                password="xatZ4hrM8SwAw9EQ",
+        conn = psycopg2.connect(database="xxx",
+                                host="xxx",
+                                user="xxx",
+                                password="xxxx",
                                 port="5432")
         return conn
 
